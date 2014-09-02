@@ -7,15 +7,12 @@
     <span class="glyphicon glyphicon-pencil"></span>
     Edit
   <% end %>
-  <h1>Show product</h1>
+  <h1><%= @product.name %></h1>
 </div>
 
 <dl class="dl-horizontal">
   <dt>Sku:</dt>
   <dd><%= @product.sku %></dd>
-
-  <dt>Name:</dt>
-  <dd><%= @product.name %></dd>
 
   <dt>Description:</dt>
   <dd><%= @product.description %></dd>
